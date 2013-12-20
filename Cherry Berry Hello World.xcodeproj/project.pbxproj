@@ -1,0 +1,490 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		27C540BF18649B4C009E554F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27C540BE18649B4C009E554F /* Foundation.framework */; };
+		27C540C118649B4C009E554F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27C540C018649B4C009E554F /* CoreGraphics.framework */; };
+		27C540C318649B4C009E554F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27C540C218649B4C009E554F /* UIKit.framework */; };
+		27C540C918649B4C009E554F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 27C540C718649B4C009E554F /* InfoPlist.strings */; };
+		27C540CB18649B4C009E554F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 27C540CA18649B4C009E554F /* main.m */; };
+		27C540CF18649B4C009E554F /* cerberAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 27C540CE18649B4C009E554F /* cerberAppDelegate.m */; };
+		27C540D218649B4C009E554F /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27C540D018649B4C009E554F /* Main_iPhone.storyboard */; };
+		27C540D518649B4C009E554F /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27C540D318649B4C009E554F /* Main_iPad.storyboard */; };
+		27C540D818649B4C009E554F /* cerberViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 27C540D718649B4C009E554F /* cerberViewController.m */; };
+		27C540DA18649B4C009E554F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 27C540D918649B4C009E554F /* Images.xcassets */; };
+		27C540E118649B4C009E554F /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27C540E018649B4C009E554F /* XCTest.framework */; };
+		27C540E218649B4C009E554F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27C540BE18649B4C009E554F /* Foundation.framework */; };
+		27C540E318649B4C009E554F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27C540C218649B4C009E554F /* UIKit.framework */; };
+		27C540EB18649B4C009E554F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 27C540E918649B4C009E554F /* InfoPlist.strings */; };
+		27C540ED18649B4C009E554F /* Cherry_Berry_Hello_WorldTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 27C540EC18649B4C009E554F /* Cherry_Berry_Hello_WorldTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		27C540E418649B4C009E554F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 27C540B318649B4C009E554F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 27C540BA18649B4C009E554F;
+			remoteInfo = "Cherry Berry Hello World";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		27C540BB18649B4C009E554F /* Cherry Berry Hello World.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Cherry Berry Hello World.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		27C540BE18649B4C009E554F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		27C540C018649B4C009E554F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		27C540C218649B4C009E554F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		27C540C618649B4C009E554F /* Cherry Berry Hello World-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Cherry Berry Hello World-Info.plist"; sourceTree = "<group>"; };
+		27C540C818649B4C009E554F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		27C540CA18649B4C009E554F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		27C540CC18649B4C009E554F /* Cherry Berry Hello World-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Cherry Berry Hello World-Prefix.pch"; sourceTree = "<group>"; };
+		27C540CD18649B4C009E554F /* cerberAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = cerberAppDelegate.h; sourceTree = "<group>"; };
+		27C540CE18649B4C009E554F /* cerberAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = cerberAppDelegate.m; sourceTree = "<group>"; };
+		27C540D118649B4C009E554F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		27C540D418649B4C009E554F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		27C540D618649B4C009E554F /* cerberViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = cerberViewController.h; sourceTree = "<group>"; };
+		27C540D718649B4C009E554F /* cerberViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = cerberViewController.m; sourceTree = "<group>"; };
+		27C540D918649B4C009E554F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		27C540DF18649B4C009E554F /* Cherry Berry Hello WorldTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Cherry Berry Hello WorldTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		27C540E018649B4C009E554F /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		27C540E818649B4C009E554F /* Cherry Berry Hello WorldTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Cherry Berry Hello WorldTests-Info.plist"; sourceTree = "<group>"; };
+		27C540EA18649B4C009E554F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		27C540EC18649B4C009E554F /* Cherry_Berry_Hello_WorldTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Cherry_Berry_Hello_WorldTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		27C540B818649B4C009E554F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27C540C118649B4C009E554F /* CoreGraphics.framework in Frameworks */,
+				27C540C318649B4C009E554F /* UIKit.framework in Frameworks */,
+				27C540BF18649B4C009E554F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		27C540DC18649B4C009E554F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27C540E118649B4C009E554F /* XCTest.framework in Frameworks */,
+				27C540E318649B4C009E554F /* UIKit.framework in Frameworks */,
+				27C540E218649B4C009E554F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		27C540B218649B4C009E554F = {
+			isa = PBXGroup;
+			children = (
+				27C540C418649B4C009E554F /* Cherry Berry Hello World */,
+				27C540E618649B4C009E554F /* Cherry Berry Hello WorldTests */,
+				27C540BD18649B4C009E554F /* Frameworks */,
+				27C540BC18649B4C009E554F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		27C540BC18649B4C009E554F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				27C540BB18649B4C009E554F /* Cherry Berry Hello World.app */,
+				27C540DF18649B4C009E554F /* Cherry Berry Hello WorldTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		27C540BD18649B4C009E554F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				27C540BE18649B4C009E554F /* Foundation.framework */,
+				27C540C018649B4C009E554F /* CoreGraphics.framework */,
+				27C540C218649B4C009E554F /* UIKit.framework */,
+				27C540E018649B4C009E554F /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		27C540C418649B4C009E554F /* Cherry Berry Hello World */ = {
+			isa = PBXGroup;
+			children = (
+				27C540CD18649B4C009E554F /* cerberAppDelegate.h */,
+				27C540CE18649B4C009E554F /* cerberAppDelegate.m */,
+				27C540D018649B4C009E554F /* Main_iPhone.storyboard */,
+				27C540D318649B4C009E554F /* Main_iPad.storyboard */,
+				27C540D618649B4C009E554F /* cerberViewController.h */,
+				27C540D718649B4C009E554F /* cerberViewController.m */,
+				27C540D918649B4C009E554F /* Images.xcassets */,
+				27C540C518649B4C009E554F /* Supporting Files */,
+			);
+			path = "Cherry Berry Hello World";
+			sourceTree = "<group>";
+		};
+		27C540C518649B4C009E554F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				27C540C618649B4C009E554F /* Cherry Berry Hello World-Info.plist */,
+				27C540C718649B4C009E554F /* InfoPlist.strings */,
+				27C540CA18649B4C009E554F /* main.m */,
+				27C540CC18649B4C009E554F /* Cherry Berry Hello World-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		27C540E618649B4C009E554F /* Cherry Berry Hello WorldTests */ = {
+			isa = PBXGroup;
+			children = (
+				27C540EC18649B4C009E554F /* Cherry_Berry_Hello_WorldTests.m */,
+				27C540E718649B4C009E554F /* Supporting Files */,
+			);
+			path = "Cherry Berry Hello WorldTests";
+			sourceTree = "<group>";
+		};
+		27C540E718649B4C009E554F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				27C540E818649B4C009E554F /* Cherry Berry Hello WorldTests-Info.plist */,
+				27C540E918649B4C009E554F /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		27C540BA18649B4C009E554F /* Cherry Berry Hello World */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 27C540F018649B4C009E554F /* Build configuration list for PBXNativeTarget "Cherry Berry Hello World" */;
+			buildPhases = (
+				27C540B718649B4C009E554F /* Sources */,
+				27C540B818649B4C009E554F /* Frameworks */,
+				27C540B918649B4C009E554F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Cherry Berry Hello World";
+			productName = "Cherry Berry Hello World";
+			productReference = 27C540BB18649B4C009E554F /* Cherry Berry Hello World.app */;
+			productType = "com.apple.product-type.application";
+		};
+		27C540DE18649B4C009E554F /* Cherry Berry Hello WorldTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 27C540F318649B4C009E554F /* Build configuration list for PBXNativeTarget "Cherry Berry Hello WorldTests" */;
+			buildPhases = (
+				27C540DB18649B4C009E554F /* Sources */,
+				27C540DC18649B4C009E554F /* Frameworks */,
+				27C540DD18649B4C009E554F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				27C540E518649B4C009E554F /* PBXTargetDependency */,
+			);
+			name = "Cherry Berry Hello WorldTests";
+			productName = "Cherry Berry Hello WorldTests";
+			productReference = 27C540DF18649B4C009E554F /* Cherry Berry Hello WorldTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		27C540B318649B4C009E554F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = cerber;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Cherry Berry";
+				TargetAttributes = {
+					27C540DE18649B4C009E554F = {
+						TestTargetID = 27C540BA18649B4C009E554F;
+					};
+				};
+			};
+			buildConfigurationList = 27C540B618649B4C009E554F /* Build configuration list for PBXProject "Cherry Berry Hello World" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 27C540B218649B4C009E554F;
+			productRefGroup = 27C540BC18649B4C009E554F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				27C540BA18649B4C009E554F /* Cherry Berry Hello World */,
+				27C540DE18649B4C009E554F /* Cherry Berry Hello WorldTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		27C540B918649B4C009E554F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27C540D518649B4C009E554F /* Main_iPad.storyboard in Resources */,
+				27C540DA18649B4C009E554F /* Images.xcassets in Resources */,
+				27C540D218649B4C009E554F /* Main_iPhone.storyboard in Resources */,
+				27C540C918649B4C009E554F /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		27C540DD18649B4C009E554F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27C540EB18649B4C009E554F /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		27C540B718649B4C009E554F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27C540CB18649B4C009E554F /* main.m in Sources */,
+				27C540CF18649B4C009E554F /* cerberAppDelegate.m in Sources */,
+				27C540D818649B4C009E554F /* cerberViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		27C540DB18649B4C009E554F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27C540ED18649B4C009E554F /* Cherry_Berry_Hello_WorldTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		27C540E518649B4C009E554F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 27C540BA18649B4C009E554F /* Cherry Berry Hello World */;
+			targetProxy = 27C540E418649B4C009E554F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		27C540C718649B4C009E554F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				27C540C818649B4C009E554F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		27C540D018649B4C009E554F /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				27C540D118649B4C009E554F /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		27C540D318649B4C009E554F /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				27C540D418649B4C009E554F /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		27C540E918649B4C009E554F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				27C540EA18649B4C009E554F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		27C540EE18649B4C009E554F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		27C540EF18649B4C009E554F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		27C540F118649B4C009E554F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Cherry Berry Hello World/Cherry Berry Hello World-Prefix.pch";
+				INFOPLIST_FILE = "Cherry Berry Hello World/Cherry Berry Hello World-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		27C540F218649B4C009E554F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Cherry Berry Hello World/Cherry Berry Hello World-Prefix.pch";
+				INFOPLIST_FILE = "Cherry Berry Hello World/Cherry Berry Hello World-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		27C540F418649B4C009E554F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Cherry Berry Hello World.app/Cherry Berry Hello World";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Cherry Berry Hello World/Cherry Berry Hello World-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Cherry Berry Hello WorldTests/Cherry Berry Hello WorldTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		27C540F518649B4C009E554F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Cherry Berry Hello World.app/Cherry Berry Hello World";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Cherry Berry Hello World/Cherry Berry Hello World-Prefix.pch";
+				INFOPLIST_FILE = "Cherry Berry Hello WorldTests/Cherry Berry Hello WorldTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		27C540B618649B4C009E554F /* Build configuration list for PBXProject "Cherry Berry Hello World" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				27C540EE18649B4C009E554F /* Debug */,
+				27C540EF18649B4C009E554F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		27C540F018649B4C009E554F /* Build configuration list for PBXNativeTarget "Cherry Berry Hello World" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				27C540F118649B4C009E554F /* Debug */,
+				27C540F218649B4C009E554F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		27C540F318649B4C009E554F /* Build configuration list for PBXNativeTarget "Cherry Berry Hello WorldTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				27C540F418649B4C009E554F /* Debug */,
+				27C540F518649B4C009E554F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 27C540B318649B4C009E554F /* Project object */;
+}
